@@ -1,0 +1,87 @@
+
+#box-1{
+    background-color: #584b8d;
+    margin: 20px;
+    padding: 0px;
+    border-radius: 8px;
+    border: solid #584b8d 5px;
+    font-family: "Helvetica";
+    width: 620px;
+}
+
+#box-2{
+    background-color: #e6e1fb;
+    margin: 20px;
+    padding: 0px;
+    border-radius: 8px;
+    border: solid #e6e1fb 5px;
+    font-family: "Helvetica";
+    width: 620px;
+}
+.header {
+    height: 162px;
+}
+
+#titulo{
+    float: left;
+    width: 300px;    
+}
+#sub-titulo{
+    float: left;
+    width: 200px;
+
+}
+#titulo, #sub-titulo{
+    
+    font-family: "Helvetica";
+    padding: 30px;
+    color: #fff;
+    
+}
+
+input,
+label,
+option,
+select,
+button,
+textarea
+{
+    width: 500px;
+}
+
+h1{
+     font-family: "Poppins", "Ubuntu";
+     margin: 0px;
+     
+}
+h1, h2, h3, h4, p {
+    padding:10px 10px 24px 20px;
+    
+}
+p{
+
+}
+
+div id="astar-title{
+    float: left;
+}
+
+#Titulo-novo-aluno{
+    float: left;
+}
+
+/* input, select, textarea{
+    padding: 7px;
+    border: solid 1px #fff;
+    border-radius: 3px;
+} */
+
+/* .data-1, .data-2{
+    width: 239px;
+} */
+.enviar{
+    background-color: #584b8d;
+    border: solid 1px #fff;
+    border-radius: 3px;
+    width: 500px;
+}

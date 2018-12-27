@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meu Diploma Digital</title>
+    <link rel="stylesheet" href="meudiploma.css">
+    <link rel="icon" href="faveicon.png">
+</head>
+
+<body>
+    <header>
+        <div id="box-1">
+
+            <div class="header">
+                <div id="titulo">
+                    <h1>Meu Diploma Digital</h1>
+                </div>
+                <div id="sub-titulo">
+                    <p>A*Star Labs</p>
+                </div>
+    </header>
+    <main>
+        <section>
+            <div id="box-2">
+                <div id="Titulo-novo-aluno">
+                    <h1>Novo Aluno</h1>
+                </div>
+                <form name="Registro de Diplomas" method="POST" action="">
+                    <label for="curso" class="selecione-curso">
+                        <!-- GET: faz o envio dos dados pela URL / POST: Não faz envio facilitado pela barra de endereço -->
+                        <!-- Action: Defino quem ira receber os dados do formulário -->
+                        Curso: <br />
+                        <select name="curso">
+                            <option value="Bacharelado em Ciência da Computação">Bacharelado em Ciência da Computação</option>
+                            <option value="Bacharelado em Sistemas de Informação">Bacharelado em Sistemas de Informação</option>
+                            <option value="Engenharia de Computação">Engenharia de Computação</option>
+                            <option value="Tecnologia em Análise e Desenvolvimento de Sistemas">Tecnologia em Análise e
+                                Desenvolvimento de Sistemas</option>
+                            <option value="Tecnologia em Jogos Digitais">Tecnologia em Jogos Digitais</option>
+                            <option value="Tecnologia em Gestão da Tecnologia da Informação">Tecnologia em Gestão da
+                                Tecnologia da Informação</option>
+                            <option value="Tecnologia em Sistemas para Internet">Tecnologia em Sistemas para Internet</option>
+                            <option value="Tecnologia em Redes de Computadores">Tecnologia em Redes de Computadores</option>
+                            <option value="Outros">Outros</option>
+                        </select>
+                    </label>
+                    <br />
+                    <label class="data">
+                        Data:<div class="data-1">
+                            <input type="date">
+                        </div>
+                    </label>
+                    <label class="ate">
+                        Até:
+                        <input type="date">
+                    </label>
+                    <label class="local">
+                        Local:<br />
+                        <textarea></textarea>
+                    </label>
+
+                    <div>
+                        <label class="email">
+                            E-mail: <br>
+                            <input type="email">
+                        </label>
+                    </div>
+
+
+                    <label class="nome-aluno">
+                        Nome do Aluno:
+                        <input type="name">
+                    </label>
+                    <!-- Label: É onde defino o campo do formulário -->
+                    <input class="enviar" type="submit" value="Enviar">
+                </form>
+                <p><a href="https://www.astarlabs.com/wp-content/uploads/cursos/hyperledger-programacao-curso-astar-2018.pdf"
+                        target=" _blank">Dúvidas? Fale com a gente</a>
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
